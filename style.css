@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #555;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "MuseoModerno", sans-serif;
+}
+
+.btn {
+  border-radius: 0;
+  border: none;
+}
+
+.btn-primary {
+  background: #3db89c;
+}
+.btn-primary:hover {
+  background: #555;
+}
+
+nav.bg-body-tertiary {
+  background: transparent !important;
+  padding: 0px !important;
+}
+nav.bg-body-tertiary .container {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+}
+nav.bg-body-tertiary .container img {
+  width: 50%;
+}
+nav.bg-body-tertiary .container .nav-link {
+  color: #209677;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-left: 30px;
+}
+nav.bg-body-tertiary .container .nav-link:hover {
+  color: #87d5ab;
+}
+
+.mainHeader img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background: #3db89c;
+}
+footer h3 {
+  background: white;
+  color: #555;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+footer .socials a {
+  color: white;
+}
+footer .socials a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.baner {
+  background: #3db89c;
+  margin-top: -100px;
+}
+.baner h1 {
+  font-weight: 300;
+}
+
+.usluge h2::after {
+  display: block;
+  content: "";
+  background: #3db89c;
+  height: 2px;
+  width: 100px;
+  text-align: center;
+  margin: 30px auto 60px auto;
+}
+
+.blogHeader img {
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blogHeader h1 {
+  background: rgba(61, 184, 156, 0.7);
+}
+
+main {
+  padding-top: 100px;
+}
+main .text {
+  background: #3db89c;
+  width: 80%;
+  margin: 0 auto;
+  top: -100px;
+}
+main .widget {
+  border: 1px solid #3db89c;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+main .widget a {
+  color: #3db89c;
+}
+main .widget a:hover {
+  color: #555;
+}
+
+form {
+  background: #3db89c;
+  top: -100px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,116 @@
+@import 'vars';
+@import 'globals';
+
+// nav
+nav.bg-body-tertiary {
+    background: transparent !important;
+    padding: 0px !important;
+    .container {
+        background: rgba($white, .7);
+        padding: 10px 20px;
+        img {
+            width: 50%;
+        }
+        .nav-link {
+            color: $tertiary;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-left: 30px;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+// mainHeader
+.mainHeader {
+    img {
+        height: 600px;
+        object-fit: cover;
+    }
+}
+
+
+// footer
+footer {
+    background: $secondary;
+    h3 {
+        background: $white;
+        color: $text;
+        padding: 10px 30px;
+        margin-bottom: 20px;
+    }
+    .socials {
+        a {
+            color: $white;
+            &:hover {
+                color: rgba($white, .7);
+            }
+        }
+    }
+}
+
+// baner
+.baner {
+    background: $secondary;
+    margin-top: -100px;
+    h1 {
+        font-weight: 300;
+    }
+}
+
+// usluge
+.usluge {
+    h2 {
+        &::after {
+            display: block;
+            content: "";
+            background: $secondary;
+            height: 2px;
+            width: 100px;
+            text-align: center;
+            margin: 30px auto 60px auto;
+        }
+    }
+}
+
+// blog header
+.blogHeader {
+    img {
+        height: 60vh;
+        object-fit: cover;
+    }
+    h1 {
+        background: rgba($secondary, .7);
+    }
+}
+
+// blog
+main {
+    padding-top: 100px;
+    .text {
+        background: $secondary;
+        width: 80%;
+        margin: 0 auto;
+        top: -100px;
+    }
+    .widget {
+        border: 1px solid $secondary;
+        padding: 30px;
+        margin-bottom: 30px;
+        a {
+            color: $secondary;
+            &:hover {
+                color: $text;
+            }
+        }
+    }
+}
+
+// form
+form {
+    background: $secondary;
+    top: -100px;
+}
